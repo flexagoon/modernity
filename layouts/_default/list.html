@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ with .Description }}<h2>{{ . }}</h2>{{ end }}
+{{ .Content }}
+<hr>
+{{ range .Pages }}
+    {{ partial "modernity-button.html" . }}
+{{ end }}
+{{ end }}
