@@ -1,0 +1,15 @@
+@import "body";
+
+@import "text";
+
+@import "hr";
+
+@import "partials";
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 775px;
+}
